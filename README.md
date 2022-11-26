@@ -31,5 +31,15 @@ npm install drizzle-orm drizzle-orm-sqlite
 
 To automatically generate migration .sql files, when src/schema.ts chages
 ```bash
+npm install drizzle-kit
+
+## package.json
+{
+  ...
+  scripts: {
+    "generate": "drizzle-kit generate --schema=src/schema.ts dialect=sqlite"
+  }
+}
+
 npm run generate
 ```
