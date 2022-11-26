@@ -24,6 +24,11 @@ wrangler d1 execute <DATABASE_NAME> --local --file=./drizzle/20221126113135/migr
 wrangler dev --local --persist
 ```
 
+Install Drizzle ORM and SQLite packages
+```bash
+npm install drizzle-orm drizzle-orm-sqlite
+```
+
 To automatically generate migration .sql files, when src/schema.ts chages
 ```bash
 npm run generate
