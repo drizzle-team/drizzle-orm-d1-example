@@ -7,15 +7,15 @@ To setup project for your Cloudflare D1 - please refer to [official docs](https:
 ```toml
 ## your wrangler.toml will loke somthing like this
 
-name = {{YOU PROJECT NAME}}
+name = "YOU PROJECT NAME"
 main = "src/index.ts"
 compatibility_date = "2022-11-07"
 node_compat = true
 
 [[ d1_databases ]]
 binding = "DB"
-database_name = {{YOU DB NAME}}
-database_id = {{YOUR DB ID}}
+database_name = "YOU DB NAME"
+database_id = "YOUR DB ID"
 ```
 
 To init local database and run server locally
