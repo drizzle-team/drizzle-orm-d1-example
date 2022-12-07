@@ -1,5 +1,5 @@
 Example project for [Drizzle ORM D1 SQLite package](https://github.com/drizzle-team/drizzle-orm/tree/main/drizzle-orm-sqlite)  
-Subscribe to our updates on [Twitter](https://twitter.com/_alexblokh)!
+Subscribe to our updates on [Twitter](https://twitter.com/DrizzleOrm)!
 
 ## Initial project setup
 To setup project for your Cloudflare D1 - please refer to [official docs](https://developers.cloudflare.com/d1/)
